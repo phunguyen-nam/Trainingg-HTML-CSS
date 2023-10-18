@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Username:</label><br>
+  <input type="text" value="Nhập tên"><br>
+  <label for="lname">Password:</label><br>
+  <input type="password" id="lname" name="lname" value="Nhập password"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+    <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:<br />
+        <input type="text" name="email" /></label><br />
+        <label>Mobile:<br />
+        <input type="text" name="mobile" /></label><br />
+        <label>Telephone:<br />
+        <input type="text" name="telephone" /></label>
+    </fieldset>
+
+</br>
+    <form target="_blank" action="List.html">
+        <textarea name="message" rows="5" cols="30">Có thể nhập nội dung gồm nhiều dòng.
+        </textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <form>
+        <input list="browsers">
+        <datalist id="browsers">
+          <option value="A">
+          <option value="B">
+          <option value="c">
+        </datalist>
+      </form>
+      <form action="http://www.example.com/profile.php">
+        <p>Chọn món thể thao yêu thích:
+        <br />
+        <input type="radio" name="genre" value="Bóng chuyền"
+        checked="checked" /> Bóng chuyền
+        <input type="radio" name="genre" value="Bóng đá" />
+        Bóng đá
+        <input type="radio" name="genre" value="Bóng bàn" />
+        Bóng bàn
+        </p>
+    </form>
+</body>
+</html>
