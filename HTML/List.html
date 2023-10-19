@@ -5,14 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    body {
+        background-color:aqua;
+    }
+    ul.DS1 {
+        list-style-type:circle;
+        color: red;
+        background-color: yellow;
+    }
+    ul.DS2 {
+        background-color: tomato;
+    }
+    li.DS2-1 {
+        background-color: blueviolet;
+        color: red;
+    }
+    ol.DS4 {
+        background-color: yellowgreen;
+        color: rgb(999,001,200)
+    }
+</style>
+
 <body>
-    <ul style="list-style-type:circle;">
+    <ul class="DS1">
         <li>Coffee</li>
         <li>Tea</li>
         <li>Milk</li>
     </ul>
-    <ul style="list-style-type:none;">
-        <li>Coffee</li>
+    <ul class="DS2" style="list-style-type:none;">
+        <li class="DS2-1">Coffee</li>
         <li>Tea</li>
         <li>Milk</li>
     </ul>
@@ -21,7 +44,7 @@
         <li>Tea</li>
         <li>Milk</li>
     </ul>
-    <ol>
+    <ol class="DS4">
         <li>Coffee</li>
         <li>Tea</li>
         <li>Milk</li>
